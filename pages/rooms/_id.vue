@@ -1,7 +1,7 @@
 <template>
   <div id="mainFrame">
     <video id="localVideo" ref="localVideo" autoplay muted>LocalVideo</video>
-    <video id="remoteVideo" ref="remoteVideo" autoplay muted>RemoteVideo</video>
+    <video id="remoteVideo" ref="remoteVideo" autoplay>RemoteVideo</video>
     <div class="bottom-bar d-flex justify-center">
       <v-btn class="mx-2" fab @click="offCamera()">
         <v-icon dark>
