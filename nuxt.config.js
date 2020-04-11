@@ -88,6 +88,6 @@ export default {
     }
   },
   env: {
-    WS_URL: process.env.WS_URL || 'http://108.160.132.251/:3000'
+    WS_URL: process.env.WS_URL || 'http://108.160.132.251:3000'
   }
 }
